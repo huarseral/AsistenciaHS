@@ -16,7 +16,6 @@
 				echo $conexion->connect_error;
 			}else{
 				$this->conexion=$conexion;
-				echo "corriendo";
 			}
 		}
 
